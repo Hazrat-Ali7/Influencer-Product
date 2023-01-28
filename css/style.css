@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common part end */
+
+/* -------------------
+    manu part start
+---------------------- */
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+
+}
+.logo a{
+    color: #3A3A3A;
+}
+.menu_item>ul{
+    padding-left: 50px;
+}
+.menu_item ul li{
+    display: inline-block;
+    
+}
+.menu_item ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    padding: 10px 20px;
+}
+.menu_item ul li a:hover{
+    background-color: #E02C6D;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+}
+.icon i{
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+    color: #3A3A3A;
+    transition: .5s;
+}
+.icon i:hover{
+    transform: scale(2);
+    color: #E02C6D;
+}
+
+/* -------------------
+    manu part end
+---------------------- */
+
+
+/* --------------------------
+    Influencer part start
+----------------------------- */
+
+#influencer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+    
+}
+.text{
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 580px;
+    
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A3A3A;
+    padding-bottom: 20px;
+}
+.text a{
+    background-color: #E02C6D;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.text a:hover{
+   background-color: #0077b5;
+   transition: .5s;
+}
+.text i{
+    margin-left: 8px;
+}
+.image{
+    background-image: url(../images/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    
+}
+.image img{
+    width: 440px;
+    height: 414px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+/* --------------------------
+    Influencer part start
+----------------------------- */
+
+/* ---------------------
+   logo part start
+----------------------- */
+
+#brand_logo{
+    
+    margin-top: 100px;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.container hr{
+    border: 1px solid lightgrey;
+}
+.logos{
+    text-align: center;
+    margin: 30px 0px;
+    
+}
+.logos img{
+    margin: 0px 30px;
+    transition: .5s;
+}
+.logos img:hover{
+    transform: scale(1.5);
+}
+
+
+/* ----------------------
+    logo part start
+----------------------- */
+
+
+/* ----------------------
+    Populer part start
+----------------------- */
+
+#populer h3{
+    text-align: center;
+    margin: 100px 0px;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+
+}
+.populer_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    justify-items: center;
+}
+
+.full_part{
+    box-shadow: 5px 3px 10px 5px rgb(230, 230, 230);
+    border-radius: 5px;
+    transition: .5s;
+}
+.full_part:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.full_part .items {
+    margin: 14px;
+
+}
+.full_part .items h4{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.full_part .items h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #18191F;
+    margin-top: 10px;
+}
+.full_part .stars_icon{
+    margin-left: 14px;
+    
+}
+.full_part .stars_icon i{
+    color: orange;
+    
+}
+.full_part .stars_icon span{
+    color: gray;
+    font-weight: 500;
+    
+}
+.full_part p{
+    width: 300px;
+    margin: 14px;
+    
+}
+
+.see_more{
+    margin-left: 960px;
+    margin-top: 50px;
+    
+}
+.see_more a{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.see_more a:hover{
+    background-color: #0077b5;
+    color: #fff;
+    transition: .5s;
+    border-radius: 5px;
+}
+.see_more i{
+    margin-left: 10px;
+}
+
+
+/* ----------------------
+    Populer part end
+----------------------- */
+
+
+/* ----------------------
+    Featured part start
+----------------------- */
+
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin-top: 80px;
+   
+}
+.feature_text h2{
+    font-size: 33px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.feature_text p{
+    margin: 30px 0px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C6C6C;
+}
+.feature_text a{
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.feature_text a:hover{
+    background-color: #0077b5;
+    transition: .5s;
+}
+.feature_text i{
+    padding-left: 10px;
+}
+/* ----------------------
+    Featured part end
+----------------------- */
+
+
+/* ----------------------
+    Footer part start
+----------------------- */
+
+footer{
+    height: 240px;
+    width: 100%;
+    background-color:  #0A0826;
+    margin-top: 100px;
+}
+.footer_text{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer_text h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer_text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.footer_icons{
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+    
+}
+.footer_icons i{
+    height: 30px;
+    width: 30px;
+    background-color: #231f5d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 0px 5px;
+}
+.footer_icons i:hover{
+    background-color: #E02C6D;
+}
+
+
+/* ----------------------
+    Footer part end
+----------------------- */
+
+
+
+/* ---------------------------
+    Media Quaries Responsive
+----------------------------- */
+
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+
+    .menu{ 
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #influencer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+      
+    }
+    #brand_logo .container{
+        height: 350px;
+    }
+    .logos{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 60px;
+    }
+    .populer_main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+
+    }
+    #populer{
+        margin-top: 100px;
+    }
+
+    #populer h3{
+        text-align: center;
+    }
+
+    .see_more{
+        margin-left: 900px;
+        margin-top: 50px;
+        
+    }
+
+    .feature{
+       grid-column-gap: 50px;
+       
+    }
+
+    .feature_text{
+        margin-left: 50px;
+    }
+
+    #footer{
+        
+        width: 300%;
+        margin-top: 100px;
+    } 
+
+}
+
+
+
+/* tab devices */
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .menu{ 
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #influencer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 0px;
+    }
+    #brand_logo .container{
+        height: 350px;
+    }
+    .logos{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 60px;
+    }
+    .populer_main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+
+    }
+    #populer{
+        margin-top: 100px;
+    }
+    #populer h3{
+        text-align: center;
+        padding-left: 340px;
+    }
+
+    .see_more{
+        margin-left: 900px;
+        margin-top: 50px;
+        
+    }
+    .feature{
+        grid-column-gap: 50px;
+        
+     }
+    .feature_text{
+        margin-left: 50px;
+    }
+
+    #footer{
+
+        width: 145%;
+        margin-top: 100px;
+    } 
+
+}
+
