@@ -17,13 +17,15 @@ body{
 /* -------------------
     manu part start
 ---------------------- */
-
+header{
+    margin-bottom: 40px;
+}
 .menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 60px;
-
+    
 }
 .logo a{
     color: #3A3A3A;
@@ -75,12 +77,7 @@ body{
     align-items: center;
     
 }
-.text{
-    padding-top: 80px;
-    padding-left: 80px;
-    width: 580px;
-    
-}
+
 .text h1{
     font-size: 50px;
     font-weight: 700;
@@ -183,14 +180,14 @@ body{
     box-shadow: 5px 3px 10px 5px rgb(230, 230, 230);
     border-radius: 5px;
     transition: .5s;
+    width: 100%;
 }
 .full_part:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
-.full_part .items {
-    margin: 14px;
-
+.items img{
+    width: 100%;
 }
 .full_part .items h4{
     font-weight: 500;
@@ -352,7 +349,9 @@ footer{
 /* mobile devices */
 
 @media only screen and (max-width:688px) {
-
+.container{
+    width: 100%;
+}
     .menu{ 
         display: none;
     }
@@ -370,15 +369,15 @@ footer{
         height: 350px;
     }
     .logos{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
+       grid-template-columns: repeat(3, 1fr);
        grid-row-gap: 60px;
     }
     .populer_main{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 60px;
+    }
+    .full_part {
+        width: 100%;
     }
     #populer{
         margin-top: 100px;
@@ -436,7 +435,7 @@ footer{
     }
     .logos{
        display: grid;
-       grid-template-columns: repeat(2, 1fr);
+       grid-template-columns: repeat(4, 1fr);
        grid-row-gap: 60px;
     }
     .populer_main{
